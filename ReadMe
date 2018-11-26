@@ -1,6 +1,9 @@
 Bringing a Blurry Frame Alive at High Frame-Rate with an Event Camera 
 
-Please run ‘./snowman codefortest/maindalta.m’, and man-
-ually change the two slide bars to visualize the recon-
-structed image. ‘Threshold c’ is the threshold to trigger an
-event. ‘Frame t’ is the reconstructed image at timestamp t.
+Please run ‘./snowman codefortest/maindalta.m’, 
+and manually change the two slide bars to visualize the reconstructed image. 
+‘Threshold c’ is the threshold to trigger an event. 
+‘Frame t’ is the reconstructed image at timestamp t.
+
+
+More data and code will be released recently.
