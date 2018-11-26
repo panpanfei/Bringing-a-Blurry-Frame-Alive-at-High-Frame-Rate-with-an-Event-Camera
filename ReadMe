@@ -1,0 +1,5 @@
+
+Please run ‘./snowman codefortest/maindalta.m’, and man-
+ually change the two slide bars to visualize the recon-
+structed image. ‘Threshold c’ is the threshold to trigger an
+event. ‘Frame t’ is the reconstructed image at timestamp t.
