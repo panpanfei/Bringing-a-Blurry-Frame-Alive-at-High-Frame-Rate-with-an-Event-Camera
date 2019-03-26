@@ -1,6 +1,6 @@
 
 --------------------------------------------------------------------------------
-Paper
+#Publications
 https://arxiv.org/abs/1811.10180v1
 @article{pan2018bringing,
   title={Bringing a blurry frame alive at high frame-rate with an event camera},
@@ -16,7 +16,7 @@ https://arxiv.org/abs/1811.10180v1
   year={2019}
 }
 
-Data
+#Data
 https://drive.google.com/file/d/1s-PR7GxpCAIB20hu7F3BlbXdUi4c9UAo/view
 --------------------------------------------------------------------------------
 
