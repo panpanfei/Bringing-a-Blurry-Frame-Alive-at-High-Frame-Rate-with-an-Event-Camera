@@ -47,10 +47,11 @@ Kernel estimation part:
 ----------------
 IMPORTANT NOTE 
 ----------------
-1. Sometimes， for pursuing better result when using your own dataset, please try with slightly changed parameters. 
+1. For pursuing better result when using your own dataset, please try with slightly changed parameters. 
+   (e.g.  't_shift', 'v_length' and 'lambda')
    Make sure that there have enough events during each time interval (interval here means 
    the time between the neighbouring frames in our reconstructed video).
-   (especially the time shift and \lambda)
+   
 2. Should you have any questions regarding this code and the corresponding results, 
    please contact Liyuan.Pan@anu.edu.au
 
