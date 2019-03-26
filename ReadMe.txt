@@ -39,7 +39,7 @@ Kernel estimation part:
 ---------------
 'option'   :   2 for avoide flickering noise
 'dnoise'   :   1 for bilateral_filter to denoise
-'t_shift'  :   For most our real event data, the time shift is '-0.02' or '-0.04'
+'t_shift'  :   In our real event data, the time shift is '-0.02' or '-0.04'
 'v_length' :   The length of the reconstructed video
 'lambad'   :   In file './EDI/TVnorm.m' 
 ---------------
