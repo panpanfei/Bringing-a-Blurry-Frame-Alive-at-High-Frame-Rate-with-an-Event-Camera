@@ -47,6 +47,6 @@ Kernel estimation part:
 ----------------
 IMPORTANT NOTE 
 ----------------
-1. Note that the algorithm sometimes may converge to an incorrect result. When you obtain such an incorrect result, please re-try  with slightly changed parameters. 
-2.Should you have any questions regarding this code and the corresponding results, please contact Liyuan.Pan@anu.edu.au
+1. Sometimes， for pursuing better result, please try with slightly changed parameters. Make sure that there have enough events during each time interval (interval here mean the time between the neighbouring frames in our reconstructed video).
+2. Should you have any questions regarding this code and the corresponding results, please contact Liyuan.Pan@anu.edu.au
 
