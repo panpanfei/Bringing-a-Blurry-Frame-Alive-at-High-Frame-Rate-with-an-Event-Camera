@@ -41,15 +41,16 @@ Kernel estimation part:
 'dnoise'   :   1 for bilateral_filter to denoise
 't_shift'  :   In our real event data, the time shift is '-0.02' or '-0.04'
 'v_length' :   The length of the reconstructed video
-'lambad'   :   In file './EDI/TVnorm.m' 
+'lambda'   :   In file './EDI/TVnorm.m' 
 ---------------
 
 ----------------
 IMPORTANT NOTE 
 ----------------
-1. Sometimes， for pursuing better result, please try with slightly changed parameters. 
+1. Sometimes， for pursuing better result when using your own dataset, please try with slightly changed parameters. 
    Make sure that there have enough events during each time interval (interval here means 
    the time between the neighbouring frames in our reconstructed video).
+   (especially the time shift and \lambda)
 2. Should you have any questions regarding this code and the corresponding results, 
    please contact Liyuan.Pan@anu.edu.au
 
