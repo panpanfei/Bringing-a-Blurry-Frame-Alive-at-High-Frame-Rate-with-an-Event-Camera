@@ -21,8 +21,11 @@ https://drive.google.com/file/d/1s-PR7GxpCAIB20hu7F3BlbXdUi4c9UAo/view
 --------------------------------------------------------------------------------
 
 Prepare matlab code
-1. Chose the data name and saving name; 
-2. Please run: event_cvpr_github/read_data/rawdata2matlab.m
+1. Download the data and put them to 'data' file
+2. Chose the data name and saving name; 
+3. run rawdata2matlab('../data/*.aedat','../data/*/');
+(e.g. rawdata2matlab('../data/rotatevideonew2_6.aedat','../data/rotatevideonew2_6/');)
+
 
 Reconstruct high frame rate video
 1. Chose the data name and saving name; 
