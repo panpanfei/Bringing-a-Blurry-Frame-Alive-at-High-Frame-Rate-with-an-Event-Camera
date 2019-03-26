@@ -23,7 +23,7 @@ https://drive.google.com/file/d/1s-PR7GxpCAIB20hu7F3BlbXdUi4c9UAo/view
 Prepare matlab code
 1. Download the data and put them to 'data' file
 2. Chose the data name and saving name; 
-3. run rawdata2matlab('../data/*.aedat','../data/*/');
+3. run rawdata2matlab(inputname,outputname);
 (e.g. rawdata2matlab('../data/rotatevideonew2_6.aedat','../data/rotatevideonew2_6/');)
 
 
