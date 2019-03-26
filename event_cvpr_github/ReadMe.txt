@@ -1,6 +1,6 @@
 
 --------------------------------------------------------------------------------
-Paper
+#Publications
 https://arxiv.org/abs/1811.10180v1
 @article{pan2018bringing,
   title={Bringing a blurry frame alive at high frame-rate with an event camera},
@@ -16,16 +16,16 @@ https://arxiv.org/abs/1811.10180v1
   year={2019}
 }
 
-Data
+#Data
 https://drive.google.com/file/d/1s-PR7GxpCAIB20hu7F3BlbXdUi4c9UAo/view
 --------------------------------------------------------------------------------
-
 
 Prepare matlab code
 1. Download the data and put them to 'data' file
 2. Chose the data name and saving name; 
 3. run rawdata2matlab(inputname,outputname);
 (e.g. rawdata2matlab('../data/rotatevideonew2_6.aedat','../data/rotatevideonew2_6/');)
+
 
 Reconstruct high frame rate video
 1. Chose the data name and saving name; 
@@ -39,7 +39,7 @@ Kernel estimation part:
 ---------------
 'option'   :   2 for avoide flickering noise
 'dnoise'   :   1 for bilateral_filter to denoise
-'t_shift'  :   For most our real event data, the time shift is '-0.02' or '-0.04'
+'t_shift'  :   In our real event data, the time shift is '-0.02' or '-0.04'
 'v_length' :   The length of the reconstructed video
 'lambad'   :   In file './EDI/TVnorm.m' 
 ---------------
@@ -47,6 +47,9 @@ Kernel estimation part:
 ----------------
 IMPORTANT NOTE 
 ----------------
-1. Note that the algorithm sometimes may converge to an incorrect result. When you obtain such an incorrect result, please re-try  with slightly changed parameters. 
-2.Should you have any questions regarding this code and the corresponding results, please contact Liyuan.Pan@anu.edu.au
+1. Sometimes， for pursuing better result, please try with slightly changed parameters. 
+   Make sure that there have enough events during each time interval (interval here means 
+   the time between the neighbouring frames in our reconstructed video).
+2. Should you have any questions regarding this code and the corresponding results, 
+   please contact Liyuan.Pan@anu.edu.au
 
