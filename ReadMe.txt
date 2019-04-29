@@ -10,7 +10,7 @@ https://arxiv.org/abs/1811.10180v1
 }
 
 @article{pan2019bringing,
-  title={Bringing Blurry Alive at High Frame-Rate with an Event Camera},
+  title={High Frame Rate Video Reconstruction based on an Event Camera},
   author={Pan, Liyuan and Hartley, Richard and Scheerlinck, Cedric and Liu, Miaomiao and Yu, Xin and Dai, Yuchao},
   journal={arXiv preprint arXiv:1903.06531},
   year={2019}
