@@ -1,4 +1,6 @@
 For academic use only.
+cvpr-video
+https://drive.google.com/file/d/1NscnUF2QxK0of4ZW7T8kneJTH1X76l2u/view?usp=sharing
 --------------------------------------------------------------------------------
 #Publications
 https://arxiv.org/abs/1811.10180v1
