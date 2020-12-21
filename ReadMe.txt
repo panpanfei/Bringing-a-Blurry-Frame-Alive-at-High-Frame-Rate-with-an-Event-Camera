@@ -3,20 +3,26 @@ cvpr-video
 https://drive.google.com/file/d/1NscnUF2QxK0of4ZW7T8kneJTH1X76l2u/view?usp=sharing
 --------------------------------------------------------------------------------
 #Publications
-https://arxiv.org/abs/1811.10180v1
-@article{pan2018bringing,
+https://openaccess.thecvf.com/content_CVPR_2019/html/Pan_Bringing_a_Blurry_Frame_Alive_at_High_Frame-Rate_With_an_CVPR_2019_paper.html
+
+@inproceedings{pan2019bringing,
   title={Bringing a blurry frame alive at high frame-rate with an event camera},
   author={Pan, Liyuan and Scheerlinck, Cedric and Yu, Xin and Hartley, Richard and Liu, Miaomiao and Dai, Yuchao},
-  journal={arXiv preprint arXiv:1811.10180},
-  year={2018}
-}
-
-@article{pan2019bringing,
-  title={High Frame Rate Video Reconstruction based on an Event Camera},
-  author={Pan, Liyuan and Hartley, Richard and Scheerlinck, Cedric and Liu, Miaomiao and Yu, Xin and Dai, Yuchao},
-  journal={arXiv preprint arXiv:1903.06531},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={6820--6829},
   year={2019}
 }
+
+https://ieeexplore.ieee.org/abstract/document/9252186
+
+@article{pan2020high,
+  title={High frame rate video reconstruction based on an event camera},
+  author={Pan, Liyuan and Hartley, Richard and Scheerlinck, Cedric and Liu, Miaomiao and Yu, Xin and Dai, Yuchao},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2020},
+  publisher={IEEE}
+}
+
 
 #Data
 https://drive.google.com/file/d/1s-PR7GxpCAIB20hu7F3BlbXdUi4c9UAo/view
