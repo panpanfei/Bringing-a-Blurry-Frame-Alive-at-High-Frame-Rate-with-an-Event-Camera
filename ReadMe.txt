@@ -1,4 +1,11 @@
 For academic use only.
+
+
+Update, please download the 'update' file and do a replacement  (warpingBlur2If.p, fromIf2Ivideo.p, event2video_final.p).
+
+Especially for those who would like to use their own dataset, please update files and choose option '1' if the dataset has a short exposure time. 
+
+
 cvpr-video
 https://drive.google.com/file/d/1NscnUF2QxK0of4ZW7T8kneJTH1X76l2u/view?usp=sharing
 --------------------------------------------------------------------------------
