@@ -1,5 +1,7 @@
 # For academic use only.
-# Update, please download the 'update' file and do a replacement  (warpingBlur2If.p, fromIf2Ivideo.p, event2video_final.p).
+
+----------------
+Update, please download the 'update' file and do a replacement  (warpingBlur2If.p, fromIf2Ivideo.p, event2video_final.p).
 Especially for those who would like to use their own dataset, please update files and choose option '1' if the dataset has a short exposure time. 
 ----------------
 
@@ -15,19 +17,17 @@ Reconstruct high frame rate video
 2. Please run: event_cvpr_github/read_data/main_video2.m
 3. Change some options that can help to avoide noise.
 
-----------------
 There are a few parameters need to be specified by users.
-
 ----------------
+
 Kernel estimation part:
 1. 'option'   :   2 for avoide flickering noise
 2. 'dnoise'   :   1 for bilateral_filter to denoise
 3. 't_shift'  :   In our real event data, the time shift is '-0.02' or '-0.04'
 4. 'v_length' :   The length of the reconstructed video
 5. 'lambda'   :   In file './EDI/TVnorm.m' 
-----------------
 
-----------------
+
 IMPORTANT NOTE 
 ----------------
 1. For pursuing better result when using your own dataset, please try with slightly changed parameters. 
@@ -39,10 +39,14 @@ IMPORTANT NOTE
    please contact Liyuan.Pan@anu.edu.au
    
 
-cvpr-video https://drive.google.com/file/d/1NscnUF2QxK0of4ZW7T8kneJTH1X76l2u/view?usp=sharing
---------------------------------------------------------------------------------
-Data https://drive.google.com/file/d/1s-PR7GxpCAIB20hu7F3BlbXdUi4c9UAo/view
+cvpr-video
 ----------------
+https://drive.google.com/file/d/1NscnUF2QxK0of4ZW7T8kneJTH1X76l2u/view?usp=sharing
+
+Data 
+----------------
+https://drive.google.com/file/d/1s-PR7GxpCAIB20hu7F3BlbXdUi4c9UAo/view
+
 Publications 
 ----------------
 1. https://openaccess.thecvf.com/content_CVPR_2019/html/Pan_Bringing_a_Blurry_Frame_Alive_at_High_Frame-Rate_With_an_CVPR_2019_paper.html
@@ -50,10 +54,10 @@ Publications
 ----------------
 
 @inproceedings{pan2019bringing,
-  title={Bringing a blurry frame alive at high frame-rate with an event camera},
-  author={Pan, Liyuan and Scheerlinck, Cedric and Yu, Xin and Hartley, Richard and Liu, Miaomiao and Dai, Yuchao},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-  pages={6820--6829},
+  title={Bringing a blurry frame alive at high frame-rate with an event camera}, 
+  author={Pan, Liyuan and Scheerlinck, Cedric and Yu, Xin and Hartley, Richard and Liu, Miaomiao and Dai, Yuchao},   
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}, 
+  pages={6820--6829},   
   year={2019}
 }
 
