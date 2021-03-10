@@ -1,10 +1,10 @@
 # For academic use only.
 
+----------------
+Update, please download the 'update' file and do a replacement  (warpingBlur2If.p, fromIf2Ivideo.p, event2video_final.p).
 
-# Update, please download the 'update' file and do a replacement  (warpingBlur2If.p, fromIf2Ivideo.p, event2video_final.p).
-
-# Especially for those who would like to use their own dataset, please update files and choose option '1' if the dataset has a short exposure time. 
-
+Especially for those who would like to use their own dataset, please update files and choose option '1' if the dataset has a short exposure time. 
+----------------
 
 cvpr-video
 https://drive.google.com/file/d/1NscnUF2QxK0of4ZW7T8kneJTH1X76l2u/view?usp=sharing
@@ -33,7 +33,7 @@ Code will be released later.
 
 #Data
 https://drive.google.com/file/d/1s-PR7GxpCAIB20hu7F3BlbXdUi4c9UAo/view
---------------------------------------------------------------------------------
+
 
 Prepare matlab code
 1. Download the data and put them to 'data' file
@@ -49,15 +49,15 @@ Reconstruct high frame rate video
 
 ----------------
 There are a few parameters need to be specified by users.
----------------
+
 Kernel estimation part:
----------------
+
 'option'   :   2 for avoide flickering noise
 'dnoise'   :   1 for bilateral_filter to denoise
 't_shift'  :   In our real event data, the time shift is '-0.02' or '-0.04'
 'v_length' :   The length of the reconstructed video
 'lambda'   :   In file './EDI/TVnorm.m' 
----------------
+
 
 ----------------
 IMPORTANT NOTE 
