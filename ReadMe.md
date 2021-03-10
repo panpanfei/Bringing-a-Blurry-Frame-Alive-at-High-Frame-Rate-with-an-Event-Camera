@@ -1,11 +1,14 @@
 # For academic use only.
 
+Updata
+----------------
+
 Update, please download the 'update' file and do a replacement  (warpingBlur2If.p, fromIf2Ivideo.p, event2video_final.p).  
 Especially for those who would like to use their own dataset, please update files and choose option '1' if the dataset has a short exposure time. 
 
-----------------
 
 Prepare matlab code
+----------------
 1. Download the data and put them to 'data' file
 2. Chose the data name and saving name; 
 3. run rawdata2matlab(inputname,outputname);
