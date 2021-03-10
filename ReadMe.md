@@ -1,8 +1,8 @@
 # For academic use only.
 
-----------------
-Update, please download the 'update' file and do a replacement  (warpingBlur2If.p, fromIf2Ivideo.p, event2video_final.p).
+Update, please download the 'update' file and do a replacement  (warpingBlur2If.p, fromIf2Ivideo.p, event2video_final.p).  
 Especially for those who would like to use their own dataset, please update files and choose option '1' if the dataset has a short exposure time. 
+
 ----------------
 
 Prepare matlab code
@@ -51,22 +51,22 @@ Publications
 ----------------
 1. https://openaccess.thecvf.com/content_CVPR_2019/html/Pan_Bringing_a_Blurry_Frame_Alive_at_High_Frame-Rate_With_an_CVPR_2019_paper.html
 2. https://ieeexplore.ieee.org/abstract/document/9252186
-----------------
 
-@inproceedings{pan2019bringing,
+
+@inproceedings{pan2019bringing,  
   title={Bringing a blurry frame alive at high frame-rate with an event camera}, 
   author={Pan, Liyuan and Scheerlinck, Cedric and Yu, Xin and Hartley, Richard and Liu, Miaomiao and Dai, Yuchao},   
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}, 
   pages={6820--6829},   
-  year={2019}
+  year={2019}  
 }
 
-@article{pan2020high,
-  title={High frame rate video reconstruction based on an event camera},
-  author={Pan, Liyuan and Hartley, Richard and Scheerlinck, Cedric and Liu, Miaomiao and Yu, Xin and Dai, Yuchao},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  year={2020},
-  publisher={IEEE}
+@article{pan2020high,   
+  title={High frame rate video reconstruction based on an event camera},   
+  author={Pan, Liyuan and Hartley, Richard and Scheerlinck, Cedric and Liu, Miaomiao and Yu, Xin and Dai, Yuchao},   
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},   
+  year={2020}, 
+  publisher={IEEE}   
 }
 
 
