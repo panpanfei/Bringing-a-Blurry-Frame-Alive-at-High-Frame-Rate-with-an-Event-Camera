@@ -1,39 +1,7 @@
 # For academic use only.
-
-
-Update, please download the 'update' file and do a replacement  (warpingBlur2If.p, fromIf2Ivideo.p, event2video_final.p).
-----------------
+# Update, please download the 'update' file and do a replacement  (warpingBlur2If.p, fromIf2Ivideo.p, event2video_final.p).
 Especially for those who would like to use their own dataset, please update files and choose option '1' if the dataset has a short exposure time. 
 ----------------
-
-cvpr-video
-https://drive.google.com/file/d/1NscnUF2QxK0of4ZW7T8kneJTH1X76l2u/view?usp=sharing
---------------------------------------------------------------------------------
-#Publications
-https://openaccess.thecvf.com/content_CVPR_2019/html/Pan_Bringing_a_Blurry_Frame_Alive_at_High_Frame-Rate_With_an_CVPR_2019_paper.html
-
-@inproceedings{pan2019bringing,
-  title={Bringing a blurry frame alive at high frame-rate with an event camera},
-  author={Pan, Liyuan and Scheerlinck, Cedric and Yu, Xin and Hartley, Richard and Liu, Miaomiao and Dai, Yuchao},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-  pages={6820--6829},
-  year={2019}
-}
-
-https://ieeexplore.ieee.org/abstract/document/9252186
-
-@article{pan2020high,
-  title={High frame rate video reconstruction based on an event camera},
-  author={Pan, Liyuan and Hartley, Richard and Scheerlinck, Cedric and Liu, Miaomiao and Yu, Xin and Dai, Yuchao},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  year={2020},
-  publisher={IEEE}
-}
-Code will be released later.
-
-Data https://drive.google.com/file/d/1s-PR7GxpCAIB20hu7F3BlbXdUi4c9UAo/view
-----------------
-
 
 Prepare matlab code
 1. Download the data and put them to 'data' file
@@ -52,11 +20,11 @@ There are a few parameters need to be specified by users.
 
 ----------------
 Kernel estimation part:
-'option'   :   2 for avoide flickering noise
-'dnoise'   :   1 for bilateral_filter to denoise
-'t_shift'  :   In our real event data, the time shift is '-0.02' or '-0.04'
-'v_length' :   The length of the reconstructed video
-'lambda'   :   In file './EDI/TVnorm.m' 
+1. 'option'   :   2 for avoide flickering noise
+2. 'dnoise'   :   1 for bilateral_filter to denoise
+3. 't_shift'  :   In our real event data, the time shift is '-0.02' or '-0.04'
+4. 'v_length' :   The length of the reconstructed video
+5. 'lambda'   :   In file './EDI/TVnorm.m' 
 ----------------
 
 ----------------
@@ -69,4 +37,33 @@ IMPORTANT NOTE
    
 2. Should you have any questions regarding this code and the corresponding results, 
    please contact Liyuan.Pan@anu.edu.au
+   
+
+cvpr-video https://drive.google.com/file/d/1NscnUF2QxK0of4ZW7T8kneJTH1X76l2u/view?usp=sharing
+--------------------------------------------------------------------------------
+Data https://drive.google.com/file/d/1s-PR7GxpCAIB20hu7F3BlbXdUi4c9UAo/view
+----------------
+Publications 
+----------------
+1. https://openaccess.thecvf.com/content_CVPR_2019/html/Pan_Bringing_a_Blurry_Frame_Alive_at_High_Frame-Rate_With_an_CVPR_2019_paper.html
+2. https://ieeexplore.ieee.org/abstract/document/9252186
+----------------
+
+@inproceedings{pan2019bringing,
+  title={Bringing a blurry frame alive at high frame-rate with an event camera},
+  author={Pan, Liyuan and Scheerlinck, Cedric and Yu, Xin and Hartley, Richard and Liu, Miaomiao and Dai, Yuchao},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={6820--6829},
+  year={2019}
+}
+
+@article{pan2020high,
+  title={High frame rate video reconstruction based on an event camera},
+  author={Pan, Liyuan and Hartley, Richard and Scheerlinck, Cedric and Liu, Miaomiao and Yu, Xin and Dai, Yuchao},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2020},
+  publisher={IEEE}
+}
+
+
 
