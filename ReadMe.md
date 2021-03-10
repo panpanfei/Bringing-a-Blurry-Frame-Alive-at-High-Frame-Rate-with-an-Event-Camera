@@ -53,8 +53,6 @@ https://drive.google.com/file/d/1s-PR7GxpCAIB20hu7F3BlbXdUi4c9UAo/view
 Publications 
 ----------------
 1. https://openaccess.thecvf.com/content_CVPR_2019/html/Pan_Bringing_a_Blurry_Frame_Alive_at_High_Frame-Rate_With_an_CVPR_2019_paper.html
-2. https://ieeexplore.ieee.org/abstract/document/9252186
-
 
 @inproceedings{pan2019bringing,  
   title={Bringing a blurry frame alive at high frame-rate with an event camera}, 
@@ -63,6 +61,8 @@ Publications
   pages={6820--6829},   
   year={2019}  
 }
+
+2. https://ieeexplore.ieee.org/abstract/document/9252186
 
 @article{pan2020high,   
   title={High frame rate video reconstruction based on an event camera},   
