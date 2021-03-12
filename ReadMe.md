@@ -34,7 +34,7 @@ Kernel estimation part:
 IMPORTANT NOTE 
 ----------------
 1. For pursuing better result when using your own dataset, please try with slightly changed parameters. 
-   (e.g.  't_shift', 'v_length' and 'lambda')
+   (e.g.  't_shift', 'v_length', 'exptime', and 'lambda')
    Make sure that there have enough events during each time interval (interval here means 
    the time between the neighbouring frames in our reconstructed video).
    
