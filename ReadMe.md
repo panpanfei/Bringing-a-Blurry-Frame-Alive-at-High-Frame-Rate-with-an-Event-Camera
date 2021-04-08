@@ -6,7 +6,7 @@ Updata
 Update, please download the 'update' file and do a replacement  (warpingBlur2If.p, fromIf2Ivideo.p, event2video_final.p).  
 Especially for those who would like to use their own dataset, please update files and choose option '1' if the dataset has a short exposure time. 
 
-### If the image is sharp, please let the exposure time equal to 0. Or, let I (main_video2.m, Line55) be the input image.
+### If the image/video is sharp, please let I (main_video2.m, Line55) be the input image.
 
 
 Prepare matlab code
