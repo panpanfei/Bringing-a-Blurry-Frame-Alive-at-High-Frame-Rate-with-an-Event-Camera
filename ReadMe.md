@@ -63,9 +63,10 @@ Publications
   pages={6820--6829},    
   year={2019}  
 }
-<\pre>
+</pre>
 
 2. https://ieeexplore.ieee.org/abstract/document/9252186
+
 <pre>
 @article{pan2020high,   
   title={High frame rate video reconstruction based on an event camera},   
@@ -74,6 +75,6 @@ Publications
   year={2020},  
   publisher={IEEE}   
 }
-<\pre>
+</pre>
 
 
