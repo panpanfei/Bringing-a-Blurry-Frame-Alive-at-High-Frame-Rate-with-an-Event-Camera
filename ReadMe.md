@@ -33,7 +33,7 @@ Kernel estimation part:
 5. 'lambda'   :   In file './EDI/TVnorm.m' 
 
 
-IMPORTANT NOTE 
+Note 
 ----------------
 1. For pursuing better result when using your own dataset, please try with slightly changed parameters. 
    (e.g.  't_shift', 'v_length', 'exptime', and 'lambda')
@@ -44,7 +44,7 @@ IMPORTANT NOTE
    please contact Liyuan.Pan@anu.edu.au
    
 
-cvpr-video
+CVPR-video
 ----------------
 https://drive.google.com/file/d/1NscnUF2QxK0of4ZW7T8kneJTH1X76l2u/view?usp=sharing
 
