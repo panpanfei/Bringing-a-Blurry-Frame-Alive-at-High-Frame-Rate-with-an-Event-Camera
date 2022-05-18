@@ -1,9 +1,9 @@
 # For academic use only.
 
-Updata
+Update
 ----------------
 
-Update, please download the 'update' file and do a replacement  (warpingBlur2If.p, fromIf2Ivideo.p, event2video_final.p).  
+Update: please download the 'update' folder and do a replacement (replace warpingBlur2If.p, fromIf2Ivideo.p, and event2video_final.p within the event_cvpr_github/EDI folder).  
 Especially for those who would like to use their own dataset, please update files and choose option '1' if the dataset has a short exposure time. 
 
 ### If the image/video is sharp, please let I (main_video2.m, Line55) be the input image.
@@ -11,22 +11,22 @@ Especially for those who would like to use their own dataset, please update file
 
 Prepare matlab code
 ----------------
-1. Download the data and put them to 'data' file
-2. Chose the data name and saving name; 
-3. run rawdata2matlab(inputname,outputname);
-(e.g. rawdata2matlab('../data/rotatevideonew2_6.aedat','../data/rotatevideonew2_6/');)
+1. Download the data and put them to 'data' folder
+2. Choose the data name and saving name
+3. run `rawdata2matlab(inputname,outputname);`
+(e.g. `rawdata2matlab('../data/rotatevideonew2_6.aedat','../data/rotatevideonew2_6/');`)
 
 
 Reconstruct high frame rate video
-1. Chose the data name and saving name; 
-2. Please run: event_cvpr_github/read_data/main_video2.m
-3. Change some options that can help to avoide noise.
+1. Choose the data name and saving name
+2. Run event_cvpr_github/read_data/main_video2.m
+3. Change some options that can help to avoid noise
 
-There are a few parameters need to be specified by users.
+There are a few parameters which need to be specified by users.
 ----------------
 
 Kernel estimation part:
-1. 'option'   :   2 for avoide flickering noise
+1. 'option'   :   2 for avoiding flickering noise
 2. 'dnoise'   :   1 for bilateral_filter to denoise
 3. 't_shift'  :   In our real event data, the time shift is '-0.02' or '-0.04'
 4. 'v_length' :   The length of the reconstructed video
@@ -35,9 +35,9 @@ Kernel estimation part:
 
 Note 
 ----------------
-1. For pursuing better result when using your own dataset, please try with slightly changed parameters. 
+1. For pursuing better results when using your own dataset, please try with slightly changed parameters. 
    (e.g.  't_shift', 'v_length', 'exptime', and 'lambda')
-   Make sure that there have enough events during each time interval (interval here means 
+   Make sure that there are enough events during each time interval (interval here means 
    the time between the neighbouring frames in our reconstructed video).
    
 2. Should you have any questions regarding this code and the corresponding results, 
